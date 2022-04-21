@@ -1,0 +1,32 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="list.css" />
+<script src="signup.js"></script>
+</head>
+<body>
+
+
+<div class="sign-up">
+<form method="post" action="sign_in.html" onsubmit="return store()">    
+        <center><h1>SIGN UP</h1></center>
+
+        <center>FIRST NAME </center>
+        <center><input type="text" id="fname" placeholder="fname" required></center><br>
+
+        <center>LAST NAME </center>
+        <center><input type="text" id="lname" placeholder="lname" required></center><br>
+
+        <center>Email</center>
+        <center><input type="email" id="email" placeholder="mailid" required></center><br>
+
+        <center>Password</center>
+        <center><input type="password" id= "pwd" placeholder="Password" required></center><br>
+
+       <center><input id="rgs_btn" type="submit" value="Submit" onclick="store()"></center>
+       <center><p>Already have an account?<a href="sign_in.html">Login here </a></p></center>
+       <!--<center><a href="list.html"><input type="submit" value="GoTo"></a></center>-->
+   
+</div>
+
+</body>
+</html>

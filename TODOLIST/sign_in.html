@@ -1,0 +1,26 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="list.css" />
+<script src="signin.js"></script>
+</head>
+<body bgcolor=gray>
+
+<div class="sign-in">
+<form method="post" action="list.html" onsubmit="return check()">   
+        <center><h1>SIGN IN</h1></center>
+
+        <center>Email</center>
+        <center><input type="email" id="email" placeholder="EmailId" required></center><br>
+
+        <center>Password</center>
+        <center><input type="password" id= "pwd" placeholder="Password" required></center><br>
+
+      
+        <center><input id= "login_btn" type="submit" value="submit" onclick="check()"></center>
+
+        <center><p>Not have an account?<a href="sign_up.html">Sign up here </a></p></center>
+        <!--<center><a href="list.html"><input type="submit" value="GoTo"></a></center>-->
+</form>
+</div>
+</body>
+</html>

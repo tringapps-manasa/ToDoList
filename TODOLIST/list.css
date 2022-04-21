@@ -1,0 +1,28 @@
+body {
+          background: gray;
+        }
+.sign-up {
+          margin: 50px auto;
+          width: 320px;
+        }
+
+.sign-in {
+          margin: 50px auto;
+          width: 320px;
+        }
+.sign-up form {
+          margin: auto;
+          padding: 20px 20px 20px 20px;
+          width: 100%;
+          border-radius: 5px;
+          background: powderblue;
+          
+        }
+.sign-in form {
+          margin: auto;
+          padding: 20px 20px 20px 20px;
+          width: 100%;
+          border-radius: 5px;
+          background: powderblue;
+          
+        }
